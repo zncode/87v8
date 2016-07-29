@@ -522,6 +522,8 @@ Vercoop.API.Devices = new function () {
             //TODO by server side
             url += "&ca=" + ca_idx;
         }
+        var select_ca_id = parseInt(ca_idx);
+
         Vercoop.Utils.Utility.XHR({ url: url, responseType: "GET" },
           function completed(xmlHttpRequest) {
               var res_txt = xmlHttpRequest.responseText;
@@ -536,22 +538,45 @@ Vercoop.API.Devices = new function () {
                                   for (var i = 0; i < arrDatas.length; i++) {
                                       var jInfo = arrDatas[i];
                                       var ctsInfo = new ContentInfo();
-                                      ctsInfo.content_idx = parseInt(jInfo.ct_idx);
-                                      ctsInfo.price = parseInt(jInfo.price);
-                                      ctsInfo.title = jInfo.title;
-                                      ctsInfo.description = jInfo.description;
-                                      ctsInfo.version = jInfo.version;
-                                      ctsInfo.play_count = parseInt(jInfo.play_count);
-                                      ctsInfo.product_id = parseInt(jInfo.product_id);
 
-                                      ctsInfo.developer = jInfo.developer;
-                                      ctsInfo.age_limit = jInfo.age;
-                                      ctsInfo.upload_date = jInfo.upload_date;
-                                      ctsInfo.sizeString = jInfo.size;
+                                      ctsInfo.category_id = parseInt(jInfo.category);
+                                      if (select_ca_id == -99) {
+                                          ctsInfo.content_idx = parseInt(jInfo.ct_idx);
+                                          ctsInfo.price = parseInt(jInfo.price);
+                                          ctsInfo.title = jInfo.title;
+                                          ctsInfo.description = jInfo.description;
+                                          ctsInfo.version = jInfo.version;
+                                          ctsInfo.play_count = parseInt(jInfo.play_count);
+                                          ctsInfo.product_id = parseInt(jInfo.product_id);
 
-                                      ctsInfo.DeviceIP = ip;
-                          
-                                      arrContents.push(ctsInfo);
+                                          ctsInfo.developer = jInfo.developer;
+                                          ctsInfo.age_limit = jInfo.age;
+                                          ctsInfo.upload_date = jInfo.upload_date;
+                                          ctsInfo.sizeString = jInfo.size;
+
+                                          ctsInfo.DeviceIP = ip;
+
+                                          arrContents.push(ctsInfo);
+                                      } else {
+                                          if (ctsInfo.category_id == select_ca_id) {
+                                              ctsInfo.content_idx = parseInt(jInfo.ct_idx);
+                                              ctsInfo.price = parseInt(jInfo.price);
+                                              ctsInfo.title = jInfo.title;
+                                              ctsInfo.description = jInfo.description;
+                                              ctsInfo.version = jInfo.version;
+                                              ctsInfo.play_count = parseInt(jInfo.play_count);
+                                              ctsInfo.product_id = parseInt(jInfo.product_id);
+
+                                              ctsInfo.developer = jInfo.developer;
+                                              ctsInfo.age_limit = jInfo.age;
+                                              ctsInfo.upload_date = jInfo.upload_date;
+                                              ctsInfo.sizeString = jInfo.size;
+
+                                              ctsInfo.DeviceIP = ip;
+
+                                              arrContents.push(ctsInfo);
+                                          }
+                                      }
                                   }
                                   fc_callback(arrContents);
                                   return;

@@ -7,6 +7,8 @@ using System.Collections.Specialized;
 using System.IO;
 using System.Text.RegularExpressions;
 using System.Diagnostics;
+using Newtonsoft.Json;
+using Newtonsoft.Json.Linq;
 
 namespace VRBackground.Vercoop.Pages
 {
@@ -56,6 +58,7 @@ namespace VRBackground.Vercoop.Pages
 
             string filename = Vercoop.Config.GetDataDirectory() + System.IO.Path.DirectorySeparatorChar + "content.json";
             String jsonp = System.IO.File.ReadAllText(filename);
+
             resCollection["count"] = "0";
 
             resCollection["datas"] = jsonp;

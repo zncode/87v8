@@ -271,7 +271,7 @@
     <AppxPackagedFile Include="D:\www\87v8\VRWorldMetroUI\VRWorldMetroUI\pages\settings\index.js">
       <PackagePath>pages\settings\index.js</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\www\87v8\VRWorldMetroUI\VRWorldMetroUI\bin\Debug\ReverseMap\resources.pri">
+    <AppxPackagedFile Include="D:\www\87v8\VRWorldMetroUI\VRWorldMetroUI\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>

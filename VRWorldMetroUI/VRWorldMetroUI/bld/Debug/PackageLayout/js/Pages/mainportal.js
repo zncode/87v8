@@ -270,13 +270,21 @@ Vercoop.PAGE.MainPortal = new function () {
         }
     }
     function reloadCategories() {
-  
+        var cnt = Vercoop.API.Category.Count();
         var padding = 20;
 
         m_CADivs = [];
         var mainDiv = document.getElementById("main_portal_category_list");
         Vercoop.Utils.UIDecorator.CleanDIV(mainDiv);
-
+        for (var i = 0; i < cnt; i++) {
+            var info = Vercoop.API.Category.CategoryAtIndex(i);
+            var element = createCAMainDiv(info);
+            if (i > 0) {
+                element.MainDIV.style.marginTop = padding + "px";
+            }
+            mainDiv.appendChild(element.MainDIV);
+            m_CADivs.push(element);
+        }
         var allInfo = new Vercoop.API.Category.CreateCAInfo("ALL", gv_CA_ALL_INDEX);
         var element = createCAMainDiv(allInfo);
         element.MainDIV.style.marginTop = padding + "px";

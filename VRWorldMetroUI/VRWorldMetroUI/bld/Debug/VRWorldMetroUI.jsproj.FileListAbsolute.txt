@@ -12,4 +12,4 @@ D:\www\87v8\VRWorldMetroUI\VRWorldMetroUI\bld\Debug\qualifiers.txt
 D:\www\87v8\VRWorldMetroUI\VRWorldMetroUI\bld\Debug\qualifiers.txt.intermediate
 D:\www\87v8\VRWorldMetroUI\VRWorldMetroUI\bld\Debug\MultipleQualifiersPerDimensionFound.txt
 D:\www\87v8\VRWorldMetroUI\VRWorldMetroUI\bld\Debug\ProjectArchitectures.txt
-D:\www\87v8\VRWorldMetroUI\VRWorldMetroUI\bin\Debug\ReverseMap\resources.pri
+D:\www\87v8\VRWorldMetroUI\VRWorldMetroUI\bin\Debug\resources.pri

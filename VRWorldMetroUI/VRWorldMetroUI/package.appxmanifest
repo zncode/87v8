@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Package xmlns="http://schemas.microsoft.com/appx/2010/manifest" xmlns:m2="http://schemas.microsoft.com/appx/2013/manifest">
-  <Identity Name="567dafe2-6318-4d7a-bda9-28e936612e14a" Version="1.0.0.5" Publisher="CN=zn" />
+  <Identity Name="567dafe2-6318-4d7a-bda9-28e936612e14a" Version="1.0.0.6" Publisher="CN=zn" />
   <Properties>
     <DisplayName>VRWorldMetroUI</DisplayName>
     <PublisherDisplayName>zn</PublisherDisplayName>

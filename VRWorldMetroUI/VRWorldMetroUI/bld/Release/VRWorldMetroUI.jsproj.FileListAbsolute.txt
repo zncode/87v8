@@ -1,0 +1,15 @@
+D:\www\87v8\VRWorldMetroUI\VRWorldMetroUI\bin\Release\ReverseMap\resources.pri
+D:\www\87v8\VRWorldMetroUI\VRWorldMetroUI\bin\Release\AppxManifest.xml
+D:\www\87v8\VRWorldMetroUI\VRWorldMetroUI\bin\Release\VRWorldMetroUI.build.appxrecipe
+D:\www\87v8\VRWorldMetroUI\VRWorldMetroUI\bld\Release\priconfig.xml
+D:\www\87v8\VRWorldMetroUI\VRWorldMetroUI\bld\Release\priconfig.xml.intermediate
+D:\www\87v8\VRWorldMetroUI\VRWorldMetroUI\bld\Release\layout.resfiles
+D:\www\87v8\VRWorldMetroUI\VRWorldMetroUI\bld\Release\layout.resfiles.intermediate
+D:\www\87v8\VRWorldMetroUI\VRWorldMetroUI\bld\Release\resources.resfiles
+D:\www\87v8\VRWorldMetroUI\VRWorldMetroUI\bld\Release\resources.resfiles.intermediate
+D:\www\87v8\VRWorldMetroUI\VRWorldMetroUI\bld\Release\pri.resfiles
+D:\www\87v8\VRWorldMetroUI\VRWorldMetroUI\bld\Release\pri.resfiles.intermediate
+D:\www\87v8\VRWorldMetroUI\VRWorldMetroUI\bld\Release\qualifiers.txt
+D:\www\87v8\VRWorldMetroUI\VRWorldMetroUI\bld\Release\qualifiers.txt.intermediate
+D:\www\87v8\VRWorldMetroUI\VRWorldMetroUI\bld\Release\MultipleQualifiersPerDimensionFound.txt
+D:\www\87v8\VRWorldMetroUI\VRWorldMetroUI\bld\Release\ProjectArchitectures.txt

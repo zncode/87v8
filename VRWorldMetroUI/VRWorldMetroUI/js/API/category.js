@@ -40,6 +40,24 @@
 
     function api_Category(on_callback) {
 
+         var arrData = [] ;
+         arrData.push({ 'idx': 1, 'name': '冒险' }, { 'idx': 2, 'name': '休闲' }, { 'idx': 3, 'name': '星际' });
+        if (Array.isArray(arrData)) {
+            for (var i = 0; i < arrData.length; i++) {
+                var jInfo = arrData[i];
+                if (jInfo.hasOwnProperty("idx") && jInfo.hasOwnProperty("name")) {
+                    var newInfo = new CateoryInfo(jInfo["name"], parseInt(jInfo["idx"]));
+                    m_Categories.push(newInfo);
+
+                }
+            }
+            on_callback(true);
+            return;
+        }
+    }
+
+    function api_Category_1(on_callback) {
+
         var d = new Date();
         var currentMiliSeconds = parseInt(d.getTime() * 1000) + parseInt(d.getMilliseconds());
         var url = "http://api.87870.com/store/game_category.php?ver=1";
