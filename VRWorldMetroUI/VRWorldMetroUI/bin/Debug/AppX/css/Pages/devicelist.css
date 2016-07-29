@@ -1,0 +1,167 @@
+﻿
+#id_page_device_list .device-list-bound{
+    width: 524px;
+    height: 100%;
+    background-color: inherit;
+    float: left;
+}
+
+.m16to9 #id_page_device_list .device-list-input{
+    width: 664px;
+    margin-left: 204px;
+    height: 100%;
+    float: left;
+}.m8to5 #id_page_device_list .device-list-input{
+    width: 580px;
+    margin-left: 120px;
+    height: 100%;
+    float: left;
+}
+
+.m16to9 #id_page_device_list .device-list-preview{
+    width: 200px;
+    margin-left: 264px;
+    height: 100%;
+    float: left;
+}
+.m8to5 #id_page_device_list .device-list-preview{
+    width: 200px;
+    margin-left: 180px;
+    height: 100%;
+    float: left;
+}
+
+#device_list_devices{
+    width: 450px;
+    height: 600px;
+    overflow:auto;
+    float: left;
+}
+#device_list_devices .device-item
+{
+    width: 196px;
+    height: 196px;
+    cursor: pointer;
+    float: left;
+}
+#device_detail_info_item_chair
+{
+    width: 196px;
+    height: 196px;
+    cursor: pointer;
+    float: left;
+}
+#device_list_detail_info
+{
+    width: 300px;
+    height: auto;
+    float: left;
+}
+#device_list_detail_info .info-container{
+
+    width: 100%;
+    height: 40px;
+    color: #8F8F8F;
+    float: left;
+}
+#device_list_detail_info .info-container .title{
+    width: 120px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 14px;
+    font-weight: bold;
+    float: left;
+}
+#device_list_detail_info .info-container .value{
+    width: calc(100% - 130px);
+    height: 40px;
+    line-height: 40px;
+    font-size: 14px;
+    float: left;
+}
+
+
+#id_page_device_list .device-input-area{
+    margin-left: 2px;
+    width: calc(100% - 20px);
+    height: calc(100% - 250px);
+}
+
+
+#id_page_device_list .device-input-buttons{
+    margin-left: 0px;
+    width: calc(100% - 20px);
+    height: 50px;
+}
+#id_page_device_list .device-input-buttons button{
+    height: 40px;
+    width: 140px;
+    cursor: pointer;
+}
+#id_page_device_list .device-input-buttons  .button-outline-only{
+    background-color: transparent;
+    color: #0e5d6d;
+    border-color: #0e5d6d;
+}
+#id_page_device_list .device-input-buttons  .button-fill-green{
+    background-color: #1bb7d5;
+    border-color: #1bb7d5;
+    color: black;
+}
+#id_page_device_list .device-input-buttons  .button-fill-red{
+    background-color: #ed1c24;
+    border-color: #ed1c24;
+    color: black;
+    margin-left:10px;
+}
+
+#id_page_device_list .device-input-items{
+    width: 100%;
+    height: 96px;
+    float: left;
+}
+#id_page_device_list .device-input-items .label{
+    width: 130px;
+    height: 48px;
+    line-height: 48px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    float: left;
+}
+#id_page_device_list .device-input-items .device-input-box{
+    width: calc(100% - 130px);
+    height: 100%;
+    float: left;
+}
+
+#id_page_device_list .device-input-items .device-input-box input{
+    width: 100%;
+    height: 48px;
+    float: left;
+}
+#id_page_device_list .device-input-items .device-input-box select{
+    width: 100%;
+    height: 48px;
+    float: left;
+}
+#id_page_device_list .device-input-items .device-input-box .error{
+    width: 100%;
+    height: 32px;
+    line-height: 32px;
+    font-size: 14px;
+    font-weight: normal;
+    color: white;
+    float: left;
+}
+
+
+.device-preview-thumb{
+    width: 196px;
+    height: 196px;
+    cursor: pointer;
+    float: left;
+}
+.device-input-buttons {
+    float: left;
+}

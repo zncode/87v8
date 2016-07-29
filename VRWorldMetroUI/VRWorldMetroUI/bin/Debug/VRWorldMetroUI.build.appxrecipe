@@ -1,0 +1,288 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>DESKTOP-DQTMEOR</Machine>
+    <WindowsUser>zn</WindowsUser>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>567dafe2-6318-4d7a-bda9-28e936612e14a</PackageIdentityName>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="D:\www\87v8\VRWorldMetroUI\VRWorldMetroUI\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="D:\www\87v8\VRWorldMetroUI\VRWorldMetroUI\css\Pages\contentinfo.css">
+      <PackagePath>css\Pages\contentinfo.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\www\87v8\VRWorldMetroUI\VRWorldMetroUI\css\Pages\devicelist.css">
+      <PackagePath>css\Pages\devicelist.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\www\87v8\VRWorldMetroUI\VRWorldMetroUI\css\Pages\gamereview.css">
+      <PackagePath>css\Pages\gamereview.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\www\87v8\VRWorldMetroUI\VRWorldMetroUI\css\Pages\login.css">
+      <PackagePath>css\Pages\login.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\www\87v8\VRWorldMetroUI\VRWorldMetroUI\css\Pages\mainportal.css">
+      <PackagePath>css\Pages\mainportal.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\www\87v8\VRWorldMetroUI\VRWorldMetroUI\css\Pages\video.css">
+      <PackagePath>css\Pages\video.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\www\87v8\VRWorldMetroUI\VRWorldMetroUI\css\default.css">
+      <PackagePath>css\default.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\www\87v8\VRWorldMetroUI\VRWorldMetroUI\pages\settings\settings.css">
+      <PackagePath>pages\settings\settings.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\www\87v8\VRWorldMetroUI\VRWorldMetroUI\default.html">
+      <PackagePath>default.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\www\87v8\VRWorldMetroUI\VRWorldMetroUI\pages\game_review\overview.html">
+      <PackagePath>pages\game_review\overview.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\www\87v8\VRWorldMetroUI\VRWorldMetroUI\pages\settings\index.html">
+      <PackagePath>pages\settings\index.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\www\87v8\VRWorldMetroUI\VRWorldMetroUI\pages\video\overview.html">
+      <PackagePath>pages\video\overview.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\www\87v8\VRWorldMetroUI\VRWorldMetroUI\images\category\ca_all_20x20.png">
+      <PackagePath>images\category\ca_all_20x20.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\www\87v8\VRWorldMetroUI\VRWorldMetroUI\images\category\ca_hot_20x20.png">
+      <PackagePath>images\category\ca_hot_20x20.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\www\87v8\VRWorldMetroUI\VRWorldMetroUI\images\category\ca_normal_20x20.png">
+      <PackagePath>images\category\ca_normal_20x20.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\www\87v8\VRWorldMetroUI\VRWorldMetroUI\images\device\defaul_egg_72x92.png">
+      <PackagePath>images\device\defaul_egg_72x92.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\www\87v8\VRWorldMetroUI\VRWorldMetroUI\images\device\list_20x20.png">
+      <PackagePath>images\device\list_20x20.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\www\87v8\VRWorldMetroUI\VRWorldMetroUI\images\device\thumb_20x20.png">
+      <PackagePath>images\device\thumb_20x20.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\www\87v8\VRWorldMetroUI\VRWorldMetroUI\images\icons_header\logo_256x256.png">
+      <PackagePath>images\icons_header\logo_256x256.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\www\87v8\VRWorldMetroUI\VRWorldMetroUI\images\icons_header\back_48x48.png">
+      <PackagePath>images\icons_header\back_48x48.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\www\87v8\VRWorldMetroUI\VRWorldMetroUI\images\icons_header\btn_nav_home.png">
+      <PackagePath>images\icons_header\btn_nav_home.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\www\87v8\VRWorldMetroUI\VRWorldMetroUI\images\icons_header\btn_nav_search.png">
+      <PackagePath>images\icons_header\btn_nav_search.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\www\87v8\VRWorldMetroUI\VRWorldMetroUI\images\icons_header\btn_nav_setting.png">
+      <PackagePath>images\icons_header\btn_nav_setting.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\www\87v8\VRWorldMetroUI\VRWorldMetroUI\images\icons_header\logo_196x43.png">
+      <PackagePath>images\icons_header\logo_196x43.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\www\87v8\VRWorldMetroUI\VRWorldMetroUI\images\Logos\310x150.png">
+      <PackagePath>images\Logos\310x150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\www\87v8\VRWorldMetroUI\VRWorldMetroUI\images\Logos\87v8-620-300.png">
+      <PackagePath>images\Logos\87v8-620-300.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\www\87v8\VRWorldMetroUI\VRWorldMetroUI\images\mainLogo\87v8-120-120.png">
+      <PackagePath>images\mainLogo\87v8-120-120.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\www\87v8\VRWorldMetroUI\VRWorldMetroUI\images\mainLogo\87v8-126-126.png">
+      <PackagePath>images\mainLogo\87v8-126-126.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\www\87v8\VRWorldMetroUI\VRWorldMetroUI\images\mainLogo\87v8-150-150.scale-100.png">
+      <PackagePath>images\mainLogo\87v8-150-150.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\www\87v8\VRWorldMetroUI\VRWorldMetroUI\images\mainLogo\87v8-210-210.png">
+      <PackagePath>images\mainLogo\87v8-210-210.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\www\87v8\VRWorldMetroUI\VRWorldMetroUI\images\mainLogo\87v8-256-256.png">
+      <PackagePath>images\mainLogo\87v8-256-256.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\www\87v8\VRWorldMetroUI\VRWorldMetroUI\images\mainLogo\87v8-270-270.png">
+      <PackagePath>images\mainLogo\87v8-270-270.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\www\87v8\VRWorldMetroUI\VRWorldMetroUI\images\mainLogo\87v8-30-30.scale-100.png">
+      <PackagePath>images\mainLogo\87v8-30-30.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\www\87v8\VRWorldMetroUI\VRWorldMetroUI\images\mainLogo\87v8-310-150.scale-100.png">
+      <PackagePath>images\mainLogo\87v8-310-150.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\www\87v8\VRWorldMetroUI\VRWorldMetroUI\images\mainLogo\87v8-50-50.scale-100.png">
+      <PackagePath>images\mainLogo\87v8-50-50.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\www\87v8\VRWorldMetroUI\VRWorldMetroUI\images\mainLogo\87v8-512-512.png">
+      <PackagePath>images\mainLogo\87v8-512-512.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\www\87v8\VRWorldMetroUI\VRWorldMetroUI\images\mainLogo\87v8-56-56.png">
+      <PackagePath>images\mainLogo\87v8-56-56.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\www\87v8\VRWorldMetroUI\VRWorldMetroUI\images\mainLogo\87v8-620-300.png">
+      <PackagePath>images\mainLogo\87v8-620-300.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\www\87v8\VRWorldMetroUI\VRWorldMetroUI\images\mainLogo\87v8-620-300.scale-100.png">
+      <PackagePath>images\mainLogo\87v8-620-300.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\www\87v8\VRWorldMetroUI\VRWorldMetroUI\images\mainLogo\87v8-70-70.png">
+      <PackagePath>images\mainLogo\87v8-70-70.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\www\87v8\VRWorldMetroUI\VRWorldMetroUI\images\mainLogo\87v8-98-98.png">
+      <PackagePath>images\mainLogo\87v8-98-98.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\www\87v8\VRWorldMetroUI\VRWorldMetroUI\images\test_image\420x170.png">
+      <PackagePath>images\test_image\420x170.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\www\87v8\VRWorldMetroUI\VRWorldMetroUI\images\test_image\alipay.png">
+      <PackagePath>images\test_image\alipay.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\www\87v8\VRWorldMetroUI\VRWorldMetroUI\images\test_image\user_512x512.png">
+      <PackagePath>images\test_image\user_512x512.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\www\87v8\VRWorldMetroUI\VRWorldMetroUI\images\test_image\alypay.jpg">
+      <PackagePath>images\test_image\alypay.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\www\87v8\VRWorldMetroUI\VRWorldMetroUI\images\video\1.jpg">
+      <PackagePath>images\video\1.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\www\87v8\VRWorldMetroUI\VRWorldMetroUI\images\video\10.jpg">
+      <PackagePath>images\video\10.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\www\87v8\VRWorldMetroUI\VRWorldMetroUI\images\video\11.jpg">
+      <PackagePath>images\video\11.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\www\87v8\VRWorldMetroUI\VRWorldMetroUI\images\video\12.jpg">
+      <PackagePath>images\video\12.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\www\87v8\VRWorldMetroUI\VRWorldMetroUI\images\video\13.jpg">
+      <PackagePath>images\video\13.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\www\87v8\VRWorldMetroUI\VRWorldMetroUI\images\video\14.jpg">
+      <PackagePath>images\video\14.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\www\87v8\VRWorldMetroUI\VRWorldMetroUI\images\video\15.jpg">
+      <PackagePath>images\video\15.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\www\87v8\VRWorldMetroUI\VRWorldMetroUI\images\video\2.jpg">
+      <PackagePath>images\video\2.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\www\87v8\VRWorldMetroUI\VRWorldMetroUI\images\video\3.jpg">
+      <PackagePath>images\video\3.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\www\87v8\VRWorldMetroUI\VRWorldMetroUI\images\video\4.jpg">
+      <PackagePath>images\video\4.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\www\87v8\VRWorldMetroUI\VRWorldMetroUI\images\video\5.jpg">
+      <PackagePath>images\video\5.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\www\87v8\VRWorldMetroUI\VRWorldMetroUI\images\video\6.jpg">
+      <PackagePath>images\video\6.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\www\87v8\VRWorldMetroUI\VRWorldMetroUI\images\video\7.jpg">
+      <PackagePath>images\video\7.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\www\87v8\VRWorldMetroUI\VRWorldMetroUI\images\video\8.jpg">
+      <PackagePath>images\video\8.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\www\87v8\VRWorldMetroUI\VRWorldMetroUI\images\video\9.jpg">
+      <PackagePath>images\video\9.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\www\87v8\VRWorldMetroUI\VRWorldMetroUI\js\API\CommonAPI.js">
+      <PackagePath>js\API\CommonAPI.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\www\87v8\VRWorldMetroUI\VRWorldMetroUI\js\API\category.js">
+      <PackagePath>js\API\category.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\www\87v8\VRWorldMetroUI\VRWorldMetroUI\js\API\content.js">
+      <PackagePath>js\API\content.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\www\87v8\VRWorldMetroUI\VRWorldMetroUI\js\API\devices.js">
+      <PackagePath>js\API\devices.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\www\87v8\VRWorldMetroUI\VRWorldMetroUI\js\API\push.js">
+      <PackagePath>js\API\push.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\www\87v8\VRWorldMetroUI\VRWorldMetroUI\js\API\video.js">
+      <PackagePath>js\API\video.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\www\87v8\VRWorldMetroUI\VRWorldMetroUI\js\default.js">
+      <PackagePath>js\default.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\www\87v8\VRWorldMetroUI\VRWorldMetroUI\js\Pages\contentinfo.js">
+      <PackagePath>js\Pages\contentinfo.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\www\87v8\VRWorldMetroUI\VRWorldMetroUI\js\Pages\devicemanager.js">
+      <PackagePath>js\Pages\devicemanager.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\www\87v8\VRWorldMetroUI\VRWorldMetroUI\js\Pages\gamereview.js">
+      <PackagePath>js\Pages\gamereview.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\www\87v8\VRWorldMetroUI\VRWorldMetroUI\js\Pages\mainportal.js">
+      <PackagePath>js\Pages\mainportal.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\www\87v8\VRWorldMetroUI\VRWorldMetroUI\js\Pages\UserLogin.js">
+      <PackagePath>js\Pages\UserLogin.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\www\87v8\VRWorldMetroUI\VRWorldMetroUI\js\Pages\PageManager.js">
+      <PackagePath>js\Pages\PageManager.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\www\87v8\VRWorldMetroUI\VRWorldMetroUI\js\Pages\video.js">
+      <PackagePath>js\Pages\video.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\www\87v8\VRWorldMetroUI\VRWorldMetroUI\js\thirdparty\qrcode.js">
+      <PackagePath>js\thirdparty\qrcode.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\www\87v8\VRWorldMetroUI\VRWorldMetroUI\js\thirdparty\three.js">
+      <PackagePath>js\thirdparty\three.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\www\87v8\VRWorldMetroUI\VRWorldMetroUI\js\Utils\files.js">
+      <PackagePath>js\Utils\files.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\www\87v8\VRWorldMetroUI\VRWorldMetroUI\js\Utils\Log.js">
+      <PackagePath>js\Utils\Log.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\www\87v8\VRWorldMetroUI\VRWorldMetroUI\js\Utils\qrcode.js">
+      <PackagePath>js\Utils\qrcode.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\www\87v8\VRWorldMetroUI\VRWorldMetroUI\js\Utils\Storage.js">
+      <PackagePath>js\Utils\Storage.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\www\87v8\VRWorldMetroUI\VRWorldMetroUI\js\Utils\UIDecorator.js">
+      <PackagePath>js\Utils\UIDecorator.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\www\87v8\VRWorldMetroUI\VRWorldMetroUI\js\Utils\Utility.js">
+      <PackagePath>js\Utils\Utility.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\www\87v8\VRWorldMetroUI\VRWorldMetroUI\js\Utils\vrvideo.js">
+      <PackagePath>js\Utils\vrvideo.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\www\87v8\VRWorldMetroUI\VRWorldMetroUI\pages\settings\index.js">
+      <PackagePath>pages\settings\index.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\www\87v8\VRWorldMetroUI\VRWorldMetroUI\bin\Debug\ReverseMap\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.WinJS.2.0\1.0\">
+      <Name>Microsoft.WinJS.2.0</Name>
+      <Version>1.0.9600.16408</Version>
+      <Architecture>Neutral</Architecture>
+      <FrameworkIdentity>Name=Microsoft.WinJS.2.0, MinVersion=1.0.9600.16408</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.WinJS.2.0\1.0\Microsoft.WinJS.2.0.appx</AppxLocation>
+      <MoreInfo>http://go.microsoft.com/fwlink/%3fLinkId=260891</MoreInfo>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,83 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+
+    
+    <script src="/js/default.js"></script>
+    <script src="/js/Pages/devicemanager.js"></script>
+    <script src="/js/Pages/gamereview.js"></script>
+
+    <script src="/js/Utils/Utility.js"></script>
+    <script src="/js/Utils/UIDecorator.js"></script>
+    <script src="/js/Utils/Storage.js"></script>
+
+    <script src="/js/API/devices.js"></script>
+
+    <script src="/pages/settings/index.js"></script>
+    <link href="/pages/settings/settings.css" type="text/css" rel="stylesheet">
+
+
+</head>
+<body>
+    <div id="div_contactInfo" data-win-control="WinJS.UI.SettingsFlyout" aria-label="Help Settings flyout"
+         data-win-options="{settingsCommandId:'help',width:'narrow'}" class="setting_body">
+        <div class="setting_body_div">
+            <div class="app-header">
+                <button id="btn_back_version" type="button" onclick="WinJS.UI.SettingsFlyout.show()" class="win-backbutton"></button>
+                <div class="win-label app-label"><span data-win-res="{textContent: 'STL_SETTINS_CONTACT_US'}"></span></div>
+            </div>
+            <div class="wim-content">
+                <div id="divVersionInfo">
+                    <span data-win-res="{textContent: 'STL_SETTINS_CONTACT_US'}"></span>
+                    <p>
+                        <span class="color-60" data-win-res="{textContent: 'STL_SETTINS_PHONE_NUMBER'}"></span> <span>+82 010-0000-7777</span><br>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div id="div_version" data-win-control="WinJS.UI.SettingsFlyout" aria-label="Help Settings flyout"
+         data-win-options="{settingsCommandId:'help',width:'narrow'}" class="setting_body">
+        <div class="setting_body_div">
+            <div class="app-header">
+                <button id="btn_back_version" type="button" onclick="WinJS.UI.SettingsFlyout.show()" class="win-backbutton"></button>
+                <div class="win-label app-label"><span data-win-res="{textContent: 'STL_APP_VERSIONINFO'}"></span></div>
+            </div>
+            <div class="wim-content">
+                <div id="divVersionInfo">
+                    <span data-win-res="{textContent: 'STL_APP_VERSIONINFO'}"></span>
+                    <p>
+                        <span class="color-60">Version</span> <span id="sp_version"></span><br>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="div_device" data-win-control="WinJS.UI.SettingsFlyout" aria-label="Help Settings flyout"
+         data-win-options="{settingsCommandId:'help',width:'narrow'}" class="setting_body">
+        <div class="setting_body_div">
+            <div class="app-header">
+                <button id="btn_back_version" type="button" onclick="WinJS.UI.SettingsFlyout.show()" class="win-backbutton"></button>
+                <div class="win-label app-label"><span data-win-res="{textContent: 'STL_DEVICE_BIND'}"></span></div>
+            </div>
+            <div class="wim-content">
+                <div id="device_add_wrapper">
+
+                    <div id="device_add_ip_wrapper">
+                        <span id="device_add_ip_label">设备IP</span>
+                        <input id="device_add_ip_value" type="text" placeholder="127.0.0.1" />
+                        <span id="device_add_ip_error">Error Message</span>
+                    </div>
+                    <div id="device_button_wrapper" >
+                        <button id="device_button_add" >绑定</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

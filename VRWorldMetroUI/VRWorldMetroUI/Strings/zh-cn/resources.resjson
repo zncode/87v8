@@ -1,0 +1,74 @@
+﻿// For details on localizing a Windows app, see: http://go.microsoft.com/fwlink/?LinkId=212836
+
+{
+    "STL_LBL_BTN_LOGIN"													: "确认",
+	"STL_YES"															: "是的",
+	"STL_NO"															: "取消",
+    "STL_LBL_BTN_CLOSE"													: "关闭",
+	"STL_PLACEHOLDER_USER_ID"											: "账号",
+	"STL_PLACEHOLDER_USER_PASSWORD"										: "密码",
+	"STL_LBL_DEVICE_IP"													: "设备 IP",
+	"STL_LBL_DEVICE_NAME"												: "名称",
+	"STL_LBL_DEVICE_RENAME"												: "重命名",
+	"STL_LBL_DEVICE_TYPE"												: "类型",
+	"STL_LBL_DEVICE_STATUS"												: "状态",
+	"STL_LBL_DEVICE_TEST"												: "测试设备",
+	"STL_LBL_DEVICE_BIND"												: "绑定设备",
+
+
+	"STL_MSG_LOGGING"													: "Logining....",
+	"STL_MSG_USERID_WANTED"												: "Please input user id",
+	"STL_MSG_USERPASS_WANTED"											: "Please input user password",
+
+	"STL_SETTINS_CONTACT_US"											: "联系我们",
+	"STL_SETTINS_PHONE_NUMBER"											: "Phone Number",
+	"STL_SETTINS_LOGOUT"												: "账户退出",
+	"STL_APP_VERSIONINFO"												: "版本号",
+	"STL_DEVICE_BIND"							    					: "设备绑定",
+
+	"STL_PAGE_NAME_LOGIN"												: "Login",
+	"STL_PAGE_NAME_DEVICE_LIST"											: "设备列表",
+
+
+	"STL_DEVICE_TYPE_EGG_CHAIR"											: "Egg Chair",
+	"STL_DEVICE_STATUS_ACTIVE"											: "Active",
+	"STL_DEVICE_STATUS_RUNNING"											: "Running",
+	"STL_DEVICE_STATUS_INVALID"											: "Disconnected",
+	"STL_DEVICE_MAKE_REPLAY"											: "重玩",
+
+	
+	"STL_ERROR_LOGIN_ID_ERROR"											: "Login Failed. User name or password is incorrect",
+	"STL_ERROR_NOT_LOGOUT_OCCUPIED_DEVICE"								: "Could not logout. Game is running.",
+	"STL_ERROR_NOT_LOGOUT_LOGINED_DEVICE"								: "Could not logout. Device is logied.",
+
+	//STERT section 1
+	"STL_LBL_BTN_LOGIN_1"												: "登陆并返回游戏页面",
+	"STL_LBL_BTN_LOGIN_2"												: "登陆后支付",
+
+	"STL_MESSAGE_BOX_TITLE"												: "提示",
+	"STL_MESSAGE_BOX_LOGOUT"											: "确定要退出登录吗?",
+	"STL_MESSAGE_BOX_BOTTUN_1"											: "确定",
+	"STL_MESSAGE_BOX_BOTTUN_2"											: "取消",
+	
+	"STL_LOGINPAYMENT_BOX_TITLE"										: "登陆&支付",
+	"STL_LOGINPAYMENT_BOX_USERNAME"										: "用户名",
+	"STL_LOGINPAYMENT_BOX_PASSWORD"										: "密码",
+	"STL_LOGINPAYMENT_BOX_NOTE"											: "使用微信APP扫码支付",
+	"STL_LOGINPAYMENT_BOX_APLIPAY"										: "支付宝",
+	"STL_LOGINPAYMENT_BOX_WXPAY"										: "微信",
+
+	"STL_OTHER_LOGIN_PAYMENT_BUTTON"									: "其它方式登陆/支付",
+	"STL_OTHER_QRCODE_LOGIN_NOTE"										: "扫描二维码登陆",
+
+	"STL_DEVICE_UPDATE_TITLE"											: "更新成功!",
+	"STL_DEVICE_UPDATE_BUTTON_1"										: "返回首页",
+	"STL_DEVICE_UPDATE_BUTTON_2"										: "返回设备管理页",
+
+	"STL_DEVICE_ADD_TITLE"												: "设备绑定成功!", 
+	//END section 1
+
+	"LANGUAGE_NAME"														: "zh-cn"
+
+
+}
+

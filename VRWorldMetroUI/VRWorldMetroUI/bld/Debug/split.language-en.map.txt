@@ -1,0 +1,6 @@
+﻿[ResourceMetadata]
+"ResourceId"			"split.language-en"
+"ResourceDimensions"		"language-en-us"
+
+[Files]
+"D:\www\87v8\VRWorldMetroUI\VRWorldMetroUI\bld\Debug\split.language-en.pri"			"resources.pri"

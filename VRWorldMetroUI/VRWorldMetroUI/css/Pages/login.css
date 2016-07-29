@@ -1,0 +1,303 @@
+﻿
+#id_page_user_login
+{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    background-color:#000000;
+}
+
+#id_inner_user_login_input_area
+{
+    min-width: 400px;
+    min-height: 400px;
+    color: white;
+    font-size: 24px;
+    background-color: inherit;
+}
+#id_inner_user_login_input_area .logo
+{
+    margin-left: 0px;
+    margin-top: 0px;
+    width: 60px;
+    height: 80px;
+}
+#id_inner_user_login_input_area .inputs
+{
+    width: 100%;
+    margin-top: 10px;
+}
+#id_inner_user_login_input_area .inputs .input{
+    margin-top: 4px;
+    height: 60px;
+    width: 100%;
+    float: left;
+}
+#id_inner_user_login_input_area .inputs .input input{
+    margin-top: 0px;
+    margin-left: 0px;
+    width: 100%;
+    height: 50px;
+    border: 0px;
+}
+
+#btn_user_login_form{
+    width: 14%;
+    float: right;
+    height: 50px;
+    color: #1bb7d5;
+    font-size: 24px;
+    cursor: pointer;
+    border: 1px solid #1bb7d5;
+    background-color: #000000;
+}
+#btn_user_login_form:hover{
+    background-color:#2f3f63;
+}
+#btn_user_login_form:active{
+    background-color:#000000;
+}
+
+
+/* Login and Payment box in right sidebar */
+#content_login_payment_button{
+    cursor:             pointer;
+    width:              196px;
+    height:             30px;
+    bottom:             20px;
+    position:           absolute;
+    margin-left:        68px;
+    background-color:   #1bb7d5;
+    line-height:        30px;
+    text-align:         center;
+    color:              white;
+}
+#login_payment_submit_1{
+    color: #0067B3;
+    cursor: pointer;
+    border: 1px solid #1bb7d5;
+    background-color: #000000;
+    min-width: 260px; 
+    height: 18px; 
+    line-height: 18px;
+    font-size: 14px;
+}
+
+#login_payment_submit_2{
+    color: #0067B3;
+    cursor: pointer;
+    border: 1px solid #1bb7d5;
+    background-color: #000000;
+    min-width: 260px; 
+    height: 18px; 
+    line-height: 18px;
+    font-size: 14px;
+}
+
+#login_payment {
+    
+    position: absolute; 
+    top: 0; 
+    right: 0px; 
+    z-index: 99; 
+    background-color: #0067B3; 
+    height: 100%; 
+    width: 350px;
+    display:none;
+}
+
+#login_payment_form {
+    height:300px;
+}
+
+#login_payment_title{
+    color:white; 
+    font-size:24px;
+    margin-top:30px; 
+    margin-left:30px; 
+    margin-bottom:20px;
+}
+#login_payment_form_username {
+    margin-left: 30px; 
+    margin-bottom: 20px; 
+    height:30px;
+}
+#login_payment_form_username_wrapper {
+    width:50px; 
+    margin-right:10px; 
+    float:left; 
+    height:30px; 
+    line-height:30px;
+    text-align:right;
+}
+#login_payment_form_username_wrapper_input{
+    float:left;
+}
+#login_payment_in_user_id {
+    width:190px; 
+    height:20px; 
+    line-height:20px;
+}
+#login_payment_form_password {
+    margin-left: 30px; 
+    margin-bottom: 20px; 
+    height: 30px; 
+}
+#login_payment_form_password_wrapper {
+    width: 50px;
+    margin-right: 10px; 
+    float: left; 
+    height: 30px; 
+    line-height: 30px; 
+    text-align:right;
+}
+#login_payment_form_password_wrappe_input{
+    float:left;
+}
+#login_payment_in_user_password{
+    width:190px; 
+    height:20px; 
+    line-height:20px;
+}
+
+#login_payment_submit_1 {
+    min-width: 240px; 
+    height: 18px; 
+    line-height: 18px; 
+    background-color: white; 
+    font-size: 14px;
+    margin-left:10px;
+}
+
+#login_payment_submit_1_wrapper {
+    float: left; 
+    margin-left: 30px; 
+    margin-top: 10px;
+}
+
+#login_payment_submit_2 {
+    min-width: 240px;
+    height: 18px; 
+    line-height: 18px; 
+    background-color: white; 
+    font-size: 14px; 
+    margin-left:10px;
+}
+
+#login_payment_submit_2_wrapper {
+    float: left; 
+    margin-left: 30px; 
+    margin-top: 15px;
+}
+#login_payment_text {
+    margin-top:80px; 
+    margin-left:60px; 
+    margin-bottom:20px;
+    height:30px;
+}
+#login_payment_img {
+    margin-top: 10px; 
+    margin-left: 30px; 
+    height: 80px;
+}
+#login_payment_img_alipay{
+    float:left;
+    margin-right:50px; 
+    text-align:center;
+}
+#login_payment_img_wxpay{
+    float: left; 
+    margin-left: 80px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+#login_after{
+    width: 100%;
+    min-height: 196px;
+    color: #8F8F8F;
+    float: left;
+    background-color: inherit;
+    text-align:center;
+}
+#login_after_user_thumb_wrapper {
+        margin: 0px auto;
+        margin-top: 20px;
+}
+#login_after_user_thumb{
+    width: 130px;
+    height: 130px;
+    background-color: transparent;
+    border-radius: 50px;
+    border-width: 5px;
+    border-color: white;
+    border-style: solid;
+}
+#login_after_user_nicname{
+    height: 40px;
+    line-height: 40px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    color:white;
+    margin: 0px auto;
+    margin-top: 5px;
+
+}
+#login_after_logout_button{
+    width: 150px;
+    height: 40px;
+    cursor: pointer;
+    color: #0067B3;
+    background-color: white;
+    margin: 0px auto;
+    margin-top: 5px;
+}
+
+#login_after_title{
+    color:white; 
+    font-size: 24px;
+    margin-top: 30px;
+    float:left;
+    margin-left: 30px;
+}
+
+/* Message Box */
+#message_box{position:absolute; z-index:100; top:40%;left:40%; width:300px; height:150px; background-color:white;}
+#message_box_title{width:300px; height:50px; line-height:50px; background-color:#0067B3; text-align:center; font-size:20px;}
+#message_box_msg{width:300px; height:50px; line-height:50px; color:black; padding-left:20px;}
+
+#message_box_button_wrapper_1{width:300px; height:50px; line-height:50px; text-align:center;}
+#message_box_button_wrapper_1_wrapper{}
+#message_box_button_1_1{min-width:80px; background-color:#0067B3; color:white;}
+
+#message_box_button_wrapper_2{width:300px; height:50px; line-height:50px; padding-left:30px;}
+#message_box_button_wrapper_2_wrapper_1{float:left; text-align:center; }
+#message_box_button_wrapper_2_wrapper_2{float:left; text-align:center; margin-left:50px;}
+#message_box_button_2_1{min-width:80px; background-color:#0067B3; color:white;}
+#message_box_button_2_2{min-width:80px; background-color:red; color:white;}
+
+
+/* Mask layer */
+#mask_layer {background-color:#333;position:fixed;left:0;top:0;width:100%;height:100%;z-index:99;display:none;opacity:0.5;}
+
+/* Test cash payment */
+#login_payment_test_cash_payment_wrapper {margin: 90px 0 0 115px; width:200px; height:50px; }
+#login_payment_test_cash_payment_button {background-color:white; color:#0067B3;}
+#login_payment_test_cash_payment_button{cursor: pointer;}
+
+/* Popup login Box */
+#popup_login_box{position:absolute; z-index:100; top:40%;left:40%; width:300px; height:170px; background-color:white; text-align:center;}
+#popup_login_box_title{width:300px; height:50px; line-height:50px; background-color:#0067B3; text-align:center; font-size:20px;}
+#popup_login_box_username_wrapper{margin-top:5px;}
+#popup_login_box_username{width:200px; border: 1px solid #0067B3; background-color:#eee9e9;}
+#popup_login_box_password_wrapper{}
+#popup_login_box_password{width:200px; border: 1px solid #0067B3; background-color:#eee9e9;}
+#popup_login_box_button_wrapper{width:300px; height:40px; line-height:40px; padding-left:30px;}
+#popup_login_box_button_1_wrapper{float:left; text-align:center; margin-left:20px;}
+#popup_login_box_button_2_wrapper{float:left; text-align:center; margin-left:35px;}
+#popup_login_box_button_1{min-width:80px; background-color:#0067B3; color:white;}
+#popup_login_box_button_2{min-width:80px; background-color:red; color:white;}
+

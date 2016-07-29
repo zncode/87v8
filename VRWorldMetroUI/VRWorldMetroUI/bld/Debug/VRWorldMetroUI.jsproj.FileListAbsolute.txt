@@ -1,0 +1,15 @@
+D:\www\87v8\VRWorldMetroUI\VRWorldMetroUI\bin\Debug\AppxManifest.xml
+D:\www\87v8\VRWorldMetroUI\VRWorldMetroUI\bin\Debug\VRWorldMetroUI.build.appxrecipe
+D:\www\87v8\VRWorldMetroUI\VRWorldMetroUI\bld\Debug\priconfig.xml
+D:\www\87v8\VRWorldMetroUI\VRWorldMetroUI\bld\Debug\priconfig.xml.intermediate
+D:\www\87v8\VRWorldMetroUI\VRWorldMetroUI\bld\Debug\layout.resfiles
+D:\www\87v8\VRWorldMetroUI\VRWorldMetroUI\bld\Debug\layout.resfiles.intermediate
+D:\www\87v8\VRWorldMetroUI\VRWorldMetroUI\bld\Debug\resources.resfiles
+D:\www\87v8\VRWorldMetroUI\VRWorldMetroUI\bld\Debug\resources.resfiles.intermediate
+D:\www\87v8\VRWorldMetroUI\VRWorldMetroUI\bld\Debug\pri.resfiles
+D:\www\87v8\VRWorldMetroUI\VRWorldMetroUI\bld\Debug\pri.resfiles.intermediate
+D:\www\87v8\VRWorldMetroUI\VRWorldMetroUI\bld\Debug\qualifiers.txt
+D:\www\87v8\VRWorldMetroUI\VRWorldMetroUI\bld\Debug\qualifiers.txt.intermediate
+D:\www\87v8\VRWorldMetroUI\VRWorldMetroUI\bld\Debug\MultipleQualifiersPerDimensionFound.txt
+D:\www\87v8\VRWorldMetroUI\VRWorldMetroUI\bld\Debug\ProjectArchitectures.txt
+D:\www\87v8\VRWorldMetroUI\VRWorldMetroUI\bin\Debug\ReverseMap\resources.pri

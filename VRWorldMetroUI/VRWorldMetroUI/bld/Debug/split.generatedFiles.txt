@@ -1,0 +1,6 @@
+bld\Debug\split.pri
+bld\Debug\split.map.txt
+bld\Debug\split.language-en.pri
+bld\Debug\split.language-en.map.txt
+bld\Debug\split.language-ko.pri
+bld\Debug\split.language-ko.map.txt

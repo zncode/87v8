@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://schemas.microsoft.com/appx/2010/manifest" xmlns:m2="http://schemas.microsoft.com/appx/2013/manifest">
+  <Identity Name="567dafe2-6318-4d7a-bda9-28e936612e14a" Version="1.0.0.5" Publisher="CN=zn" />
+  <Properties>
+    <DisplayName>VRWorldMetroUI</DisplayName>
+    <PublisherDisplayName>zn</PublisherDisplayName>
+    <Logo>images\mainLogo\87v8-50-50.png</Logo>
+  </Properties>
+  <Prerequisites>
+    <OSMinVersion>6.3.0</OSMinVersion>
+    <OSMaxVersionTested>6.3.0</OSMaxVersionTested>
+  </Prerequisites>
+  <Resources>
+    <Resource Language="en-US" />
+    <Resource Language="ko-kr" />
+    <Resource Language="zh-cn" />
+  </Resources>
+  <Applications>
+    <Application Id="App" StartPage="default.html">
+      <m2:VisualElements DisplayName="87V8" Description="87870 Offline Store VR Assistant" ForegroundText="light" BackgroundColor="#000000" Square150x150Logo="images\mainLogo\87v8-150-150.png" Square30x30Logo="images\mainLogo\87v8-30-30.png">
+        <m2:DefaultTile DefaultSize="square150x150Logo" Wide310x150Logo="images\mainLogo\87v8-310-150.png">
+          <m2:ShowNameOnTiles>
+            <m2:ShowOn Tile="square150x150Logo" />
+            <m2:ShowOn Tile="wide310x150Logo" />
+          </m2:ShowNameOnTiles>
+        </m2:DefaultTile>
+        <m2:SplashScreen Image="images\Logos\87v8-620-300.png" />
+        <m2:InitialRotationPreference>
+          <m2:Rotation Preference="landscape" />
+          <m2:Rotation Preference="landscapeFlipped" />
+        </m2:InitialRotationPreference>
+        <m2:ApplicationView MinWidth="width500" />
+      </m2:VisualElements>
+    </Application>
+  </Applications>
+  <Capabilities>
+    <Capability Name="internetClient" />
+    <Capability Name="internetClientServer" />
+    <Capability Name="privateNetworkClientServer" />
+  </Capabilities>
+</Package>

@@ -1,0 +1,68 @@
+﻿// For details on localizing a Windows app, see: http://go.microsoft.com/fwlink/?LinkId=212836
+
+{
+    "STL_LBL_BTN_LOGIN"													: "로그인",
+	"STL_YES"															: "예",
+	"STL_NO"															: "아니요",
+    "STL_LBL_BTN_CLOSE"													: "닫기",
+	"STL_LBL_DEVICE_IP"													: "Device PC IP",
+	"STL_LBL_DEVICE_NAME"												: "Name",
+	"STL_LBL_DEVICE_RENAME"												: "Rename",
+	"STL_LBL_DEVICE_TYPE"												: "Type",
+	"STL_LBL_DEVICE_STATUS"												: "Status",
+	"STL_LBL_DEVICE_TEST"												: "Test Device",
+	"STL_LBL_DEVICE_BIND"												: "Bind Device",
+
+	"STL_PLACEHOLDER_USER_ID"											: "아이디",
+	"STL_PLACEHOLDER_USER_PASSWORD"										: "암호",
+
+	"STL_MSG_LOGGING"													: "로긴중...",
+	"STL_MSG_USERID_WANTED"												: "아이디를 입력하세요.",
+	"STL_MSG_USERPASS_WANTED"											: "비밀번호를 입력하세요.",
+
+	"STL_SETTINS_CONTACT_US"											: "연락처",
+	"STL_SETTINS_PHONE_NUMBER"											: "전화번호",
+	"STL_SETTINS_LOGOUT"												: "로그아웃",
+	"STL_APP_VERSIONINFO"												: "버전 정보",
+
+	"STL_PAGE_NAME_LOGIN"												: "Login",
+	"STL_PAGE_NAME_DEVICE_LIST"											: "Device List",
+
+
+	"STL_DEVICE_TYPE_EGG_CHAIR"											: "Egg Chair",
+	"STL_DEVICE_STATUS_ACTIVE"											: "Active",
+	"STL_DEVICE_STATUS_RUNNING"											: "Running",
+	"STL_DEVICE_STATUS_INVALID"											: "Disconnected",
+	"STL_DEVICE_MAKE_REPLAY"											: "Replay",
+
+	
+	"STL_ERROR_LOGIN_ID_ERROR"											: "Login Failed. User name or password is incorrect",
+	"STL_ERROR_NOT_LOGOUT_OCCUPIED_DEVICE"								: "Could not logout. Game is running.",
+	"STL_ERROR_NOT_LOGOUT_LOGINED_DEVICE"								: "Could not logout. Device is logied.",
+
+	//STERT section 1
+	"STL_LBL_BTN_LOGIN_1"												: "Go back to game page after login",
+	"STL_LBL_BTN_LOGIN_2"												: "Payment after login",
+
+	"STL_MESSAGE_BOX_TITLE"												: "Note",
+	"STL_MESSAGE_BOX_LOGOUT"											: "Are you sure want to logout?",
+	"STL_MESSAGE_BOX_BOTTUN_1"											: "Yes",
+	"STL_MESSAGE_BOX_BOTTUN_2"											: "No",
+	
+	"STL_LOGINPAYMENT_BOX_TITLE"										: "Login&Payment",
+	"STL_LOGINPAYMENT_BOX_USERNAME"										: "Username",
+	"STL_LOGINPAYMENT_BOX_PASSWORD"										: "Password",
+	"STL_LOGINPAYMENT_BOX_NOTE"											: "Scan qrcode payment from Alipay / Wechat ",
+	"STL_LOGINPAYMENT_BOX_APLIPAY"										: "Alipay",
+	"STL_LOGINPAYMENT_BOX_WXPAY"										: "Wechat pay",
+
+	"STL_OTHER_LOGIN_PAYMENT_BUTTON"									: "Other login method/Payment",
+	"STL_OTHER_QRCODE_LOGIN_NOTE"										: "Login from scan qrcode",
+
+	"STL_DEVICE_UPDATE_TITLE"											: "Update success!",
+	"STL_DEVICE_UPDATE_BUTTON_1"										: "Go back to index page",
+	"STL_DEVICE_UPDATE_BUTTON_2"										: "Go back to device management page",
+	//END section 1
+
+	"LANGUAGE_NAME"														: "ko-kr"
+}

@@ -1,0 +1,133 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+
+.setting_body{
+    margin: 0 auto;
+	padding: 0;
+    background: #ffffff;
+	color: #000000;
+}
+
+.setting_body_div{
+    margin: 0 auto;
+	padding: 0;
+	width: 80%;
+    background: #ffffff;
+	color: #000000;
+}
+
+
+
+/* default */
+
+.color-60{
+	color: rgba(0, 0, 0, 0.76);
+	padding-right: 10px;
+	font-weight: 700;
+}
+.clear{
+	clear: both;
+	padding: 5px 0;
+}
+.float-left{
+	float: left;
+}
+.float-right{
+	float: right;
+}
+.btn{
+	color: #6a97ff;
+	font-weight: 700;
+}
+
+/* layout */
+
+#div_logout,
+#div_history,
+#div_version,
+#div_contactInfo,
+#div_mem,
+#div_movie,
+#div_service_ip
+#div_helpdesk,
+#div_push{
+	clear: both;
+}
+
+#divHistory{
+	margin-top: 15px;
+}
+
+.app-label{
+    margin-left:40px;
+}
+.app-header{
+    
+    float: left;
+	width: 100%;
+    margin-top:40px;
+    margin-bottom: 20px;
+    height: 50px;
+	border-bottom: 1px solid rgb(0, 0, 0);
+	background: transparent;
+	color: #000000;
+	font-size: 20px;
+	letter-spacing: -0.5px;
+}
+
+.win-backbutton{
+	float: left;
+	margin: 12.5px 10px 0 0;
+	width: 25px;
+	height: 25px;
+    color: #000000;
+    border-color: #000000;
+}
+
+.app-content{
+    margin-top: 30px;
+	font-size: 16px;
+	line-height: 1.5;
+}
+
+.win-progress,
+#mether_diskUsage{
+	float: right;
+	margin-top: 10px;
+	width: 30%;
+	height: 5px;
+}
+
+#div_version div.btn{
+	border: 1px solid #6a97ff;
+	margin: 20px 0;
+	padding: 20px 0;
+	text-align: center;
+}
+
+#div_history div.clear{
+	padding: 10px 0;
+}
+
+.capacity-value{
+	margin: 5px 5px 0 0;
+	font-size: 11px;
+	color: rgba(0, 0, 0, 0.81);
+}
+
+.access-time{
+	width: 70%;
+	float: right;
+	text-align: center;
+}
+.access-time a{
+	font-weight: 700;
+	letter-spacing: -3px;
+	color: green;
+}
+
+.access-time-value{
+	clear: both;
+	width: 40px;
+}

@@ -1,0 +1,185 @@
+﻿#id_page_main_portal .category{
+    width: 270px;
+   /* width: 15%; */
+    height: 100%;
+    background-color: inherit;
+    float: left;
+}
+#id_page_main_portal .content{
+   width: calc(100% - 270px - 336px);
+   /*  width: 68%;*/
+    height: 100%;
+    background-color: inherit;
+    float: left;
+}
+#id_page_main_portal .devices{
+    width: 336px;
+  /*  width: 17%;*/
+    height: 100%;
+    margin-top: 20px;
+    background-color: inherit;
+    float: left;
+}
+
+
+
+#id_page_main_portal .inner-area{
+    margin-left: 0px;
+    height: calc(100% - 50px);
+    width: 100%;
+    background-color: inherit;
+}
+#id_page_main_portal .inner-area .item-category{
+    margin-left: 0px;
+    height: 72px;
+    width: 100%;
+    border-bottom-right-radius: 4px;
+    border-top-right-radius: 4px;
+    float: left;
+    cursor: pointer;
+
+}
+#id_page_main_portal .inner-area .item-category .label{
+    float: left;
+    margin-top: 0px;
+    margin-left: 20px;
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 72px;
+}
+.emphasize-area {
+    height: 72px;
+    width: 72px;
+    background-color: rgba(0, 0, 0, 0.3);
+    float: left;
+}
+.emphasize-area img{
+    margin-left: 20%;
+    margin-top: 20%;
+    width: 60%;
+    height: 60%;
+}
+#id_page_main_portal .inner-area .device-view-type{
+    margin-left: 0px;
+    margin-top: 0px;
+    width: 100%;
+    height: 50px;
+    background-color: inherit;
+    cursor: pointer;
+    float: left;
+}
+#id_page_main_portal .inner-area .device-view-type img{
+    float: left;
+    width: 20px;
+    height: 20px;
+    margin-top: 10px;
+    margin-left: 90px;
+    background-color: #8F8F8F;
+}
+#id_page_main_portal .inner-area .device-view-type span{
+    float: left;
+    width: auto;
+    height: 40px;
+    line-height: 40px;
+    font-size: 20px;
+    margin-top: 0px;
+    margin-left: 10px;
+    font-weight: bold;
+    color: #8F8F8F;
+}
+#id_page_main_portal .inner-area .device-inner{
+    margin-left: 0px;
+    margin-top: 0px;
+    /*width: calc(100% - 20px);*/
+    width: 100%;
+    height: calc(100% - 50px);
+    background-color: inherit;
+    float: left;
+}
+#id_page_main_portal .inner-area .device-inner .device-list{
+    margin-left: 0px;
+    margin-top: 0px;
+    /*width: calc(100% - 40px);*/
+    width:100%;
+}
+#id_page_main_portal .inner-area .device-inner .device-list .device-item{
+    width: 100%;
+    float: left;
+    background-color: inherit;
+    cursor: pointer;
+}
+#id_page_main_portal .inner-area .device-inner .device-list .device-item .small{
+    margin-left: 72px;
+    width: 196px;
+    height: 80px;
+
+}
+#id_page_main_portal .inner-area .device-inner .device-list .device-item .small span{
+    display: table-cell;
+    vertical-align: middle;
+}
+#id_page_main_portal .inner-area .device-inner .device-list .device-item .large{
+    margin-left: 72px;
+    width: 196px;
+    height: 196px;
+}
+#id_page_main_portal .inner-area .device-inner .device-list .device-item .top{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#id_page_main_portal .inner-area .device-inner .device-list .device-item .middle{
+    margin-bottom: 10px;
+}
+
+#id_page_main_portal .inner-area .game-inner-container{
+    margin-left: 82px;
+    margin-top: 0px;
+    width: calc(100% - 100px);
+    height: 100%;
+    background-color: inherit;
+    float: left;
+}
+#id_page_main_portal .inner-area .game-inner-container .error-msg
+{
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+
+}
+#id_page_main_portal .inner-area .game-inner-container .game-list{
+    margin-left: 0px;
+    margin-top: 0px;
+    width: calc(100% - 40px);
+    min-height: 100%;
+    background-color: inherit;
+}
+.m16to9 #id_page_main_portal .inner-area .game-inner-container .game-list .item-game{
+    width: 540px;
+    height: 216px;
+    float: left;
+    cursor: pointer;
+}
+.m8to5 #id_page_main_portal .inner-area .game-inner-container .game-list .item-game{
+    width: 450px;
+    height: 180px;
+    float: left;
+    cursor: pointer;
+}
+#id_page_main_portal .inner-area .game-inner-container .game-list .item-game img{
+    width: 100%;
+    height: 100%;
+    float: left;
+}
+#id_page_main_portal .inner-area .game-inner-container .game-list .item-game .title{
+    height: 60px;
+    margin-top: -60px;
+    line-height: 60px;
+    font-size: 24px;
+    text-align:center;
+    width: 100%;
+    color: white;
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.6);
+    float: left;
+}

@@ -1,0 +1,539 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>VRWorldMetroUI</title>
+
+    <!-- WinJS references -->
+    <link href="//Microsoft.WinJS.2.0/css/ui-dark.css" rel="stylesheet" />
+    <script src="//Microsoft.WinJS.2.0/js/base.js"></script>
+    <script src="//Microsoft.WinJS.2.0/js/ui.js"></script>
+
+    <!-- VRWorldMetroUI references -->
+    <link href="/css/default.css" rel="stylesheet" />
+    <link href="/css/Pages/login.css" rel="stylesheet" />
+    <link href="/css/Pages/mainportal.css" rel="stylesheet" />
+    <link href="/css/Pages/devicelist.css" rel="stylesheet" />
+    <link href="/css/Pages/contentinfo.css" rel="stylesheet" />
+    <link href="/css/Pages/video.css" rel="stylesheet" />
+    <link href="/css/Pages/gamereview.css" rel="stylesheet" />
+
+    <script src="/js/default.js"></script>
+    <script src="/js/Pages/PageManager.js"></script>
+    <script src="/js/Pages/UserLogin.js"></script>
+    <script src="/js/Pages/mainportal.js"></script>
+    <script src="/js/Pages/devicemanager.js"></script>
+    <script src="/js/Pages/contentinfo.js"></script>
+    <script src="/js/Pages/video.js"></script>
+    <script src="/js/Pages/gamereview.js"></script>
+
+    <script src="/js/Utils/Utility.js"></script>
+    <script src="/js/Utils/UIDecorator.js"></script>
+    <script src="/js/Utils/Log.js"></script>
+    <script src="/js/Utils/Storage.js"></script>
+    <script src="/js/Utils/Files.js"></script>
+    <script src="/js/Utils/qrcode.js"></script>
+    <script src="/js/API/category.js"></script>
+    <script src="/js/API/devices.js"></script>
+    <script src="/js/API/content.js"></script>
+    <script src="/js/API/push.js"></script>
+    <script src="/js/API/CommonAPI.js"></script>
+    
+    <script src="/js/thirdparty/qrcode.js"></script>
+
+    <script src="/js/thirdparty/three.js"></script>
+    <script src="/js/Utils/vrvideo.js"></script>
+    <script src="/js/API/video.js"></script>
+    
+</head>
+<body ondragstart="return false">
+    <div id="main_container" class="m16to9" style="background-color:black;">
+        <div id="page_top_wrapper" >
+            <div class="global-head-area" style="background-color: inherit;">
+                <div id="img_main_logo_wrapper"><img id="img_main_logo" width="50" height="50" src="/images/icons_header/logo_256x256.png" style="cursor:pointer; margin-top: 0px; display:block;" /></div>
+                <div id="logo_text">87870.com</div>
+                <div id="header_go_back" class="back" style="display:none;" onclick="Vercoop.PAGE.PopPage();">뒤로 가기 </div>
+
+            </div>
+            <div id="content_area_top_right_buttons" style="background-color: inherit;">
+             <!--  <img id="img_go_home" src="/images/icons_header/btn_nav_home.png" style="cursor:pointer;" />--> 
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <!--
+
+                <img src="/images/icons_header/btn_nav_search.png" style="cursor:pointer" />
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                -->
+                <img src="/images/icons_header/btn_nav_setting.png" style="cursor:pointer" onclick="Windows.UI.ApplicationSettings.SettingsPane.show();" />
+            </div>
+        </div>
+        <div id="id_page_cts_detal_info" class="main-frame" style="display:none;">
+            <div class="thumb-area" style="background-color: inherit;">
+                <div id="cts_detail_title" class="menu-category-title">Title Here</div>
+                <div class="image-container" style="background-color: inherit;">
+                    <img id="cts_detail_image" src="/images/test_image/420x170.png" />
+                </div>
+            </div>
+            <div class="detail-info" style="background-color: inherit;">
+                <span class="menu-category-title">游戏介绍</span>
+                <div class="top" style="background-color: inherit;">
+                    <span id="cts_detail_price" class="price">$20</span>
+                    <button id="cts_detail_btn_play" class="button-play" >开始</button>
+
+                    <button id="cts_detail_btn_stop" class="button-stop" style="margin-left:10px;" onclick="Vercoop.PAGE.ContentInfo.StopCurrentGame();">停止</button>
+                </div>
+                <div class="middle" style="background-color: inherit; margin-top: 10px;">
+                    <span class="label">描述</span>
+                    <div id="cts_detail_description" class="text" style="background-color: inherit;">
+                        무릇 인생만녕에 자깃ㄴ의 한생을 회고해나다는것은 참으로 감회로운 일이다. 살아오느ㅡㅡ
+                    </div>
+                </div>
+                <div class="bottom" style="background-color: inherit;">
+                    <div class="infos">
+                        <span class="label">开发者:</span>
+                        <span id="cts_info_detail_developer" class="value">87870</span>
+                    </div>
+                    <div class="infos">
+                        <span class="label">合适年龄:</span>
+                        <span id="cts_info_detail_agelimit" class="value">18</span>
+                    </div>
+                    <div class="infos">
+                        <span class="label">文件大小:</span>
+                        <span id="cts_info_detail_filesize" class="value">0</span>
+                    </div>
+                    <div class="infos">
+                        <span class="label">上传时间 :</span>
+                        <span id="cts_info_detail_uploadDate" class="value">2015/11/1 10:10AM</span>
+                    </div>
+                    <div class="infos">
+                        <span class="label">版本:</span>
+                        <span id="cts_info_detail_version" class="value">1.0</span>
+                    </div>
+                  <!--  simple version <div class="infos">
+                       <span class="label">运行次数:</span>
+                        <span id="cts_info_detail_runningtime" class="value">3</span> 
+                    </div> -->
+                </div>
+            </div>
+            <div class="right-panel" style="background-color: #FFFFFF;">
+                <span class="menu-category-title" style="margin-left: 68px; color:#8F8F8F;">用户</span>
+
+                <div id="content_info_user_area" class="user-area" style="margin-left: 68px; background-color: inherit;">
+                    <img id="content_info_user_thumb" src="/images/icons_header/btn_nav_home.png" />
+                    <span id="content_info_user_nicname" class="user-name">UserName Here</span>
+                    <!-- <button onclick="Vercoop.PAGE.ContentInfo.UserLogoutRequest();">Logout</button>-->
+                    <button id="content_info_user_logout_button">Logout</button>
+                </div>
+
+                <div id="content_info_scan_area" class="scan-area" style="margin-left: 68px; background-color: inherit; display: block;">
+                    <div class="corner left-top"></div>
+                    <div class="corner right-top"></div>
+                    <div class="corner left-bottom"></div>
+                    <div class="corner right-bottom"></div>
+                    <div id="content_str_qrcode_login" class="label"></div>
+                    <div id="id_qrcode_area" class="qr-code" style="background-color: inherit;"></div>
+                </div>
+
+               <!-- simple version <div id="content_login_payment_button" class="other-area" onclick="Vercoop.PAGE.showLoginPayment();"></div>  -->
+
+                <div id="content_info_cur_device" class="device-area" style="margin-left: 68px; ">
+
+                </div>
+            </div>
+        </div>
+        <div id="id_page_device_list" class="main-frame" style="background-color: inherit; display:none;">
+            <div class="device-list-bound" style="background-color: #ffffff;">
+                <div class="menu-category-title" style="margin-left: 70px; width: auto; color: #8f8f8f; cursor:pointer;" onclick="Vercoop.PAGE.DeviceManager.ShowDeviceListPage();">
+                    绑定设备
+                </div>
+                <div style="clear:both;"></div>
+                <div class="device-input-area" style="background-color: inherit; margin-left: 70px; width: calc(100% - 80px);">
+                    <div id="device_list_devices" style="background-color: inherit;">
+                        <div class="device-item" style="background-color: yellow;">
+
+                        </div>
+                        <div class="device-item" style="background-color: yellow;">
+
+                        </div>
+                    </div>
+                    <div id="device_list_detail_info" style="">
+                        <div id="device_detail_info_item_chair" class="device-item" style="background-color: inherit;">
+                           
+                        </div>
+                        <div class="info-container" style="background-color: inherit; margin-top: 10px;">
+                            <span class="title">设备名称</span>
+                            <span id="sp_device_info_name" class="value">N/A</span>
+                        </div>
+                        <div class="info-container" style="background-color: inherit; margin-top: 10px;">
+                            <span class="title">设备类型</span>
+                            <span id="sp_device_info_type" class="value">N/A</span>
+                        </div>
+                        <div class="info-container" style="background-color: inherit; margin-top: 10px;">
+                            <span class="title">设备状态</span>
+                            <span id="sp_device_info_status" class="value">N/A</span>
+                        </div>
+                        <div class="info-container" style="background-color: inherit; margin-top: 10px;">
+                            <span class="title">设备IP</span>
+                            <span id="sp_device_info_ip" class="value">N/A</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="device-input-buttons" style="background-color: transparent; margin-left: 50px;">
+                    <button id="device_action_unbind" class="button-fill-red">解绑</button>
+                </div>
+            </div>
+            <div class="device-list-input" style="background-color: inherit;">
+                <div class="menu-category-title">
+                    设备信息
+                </div>
+                <div class="device-input-area" style="background-color: inherit;">
+                    <div id="device_input_ip_container" class="device-input-items" style="background-color:inherit;">
+                        <span id="device_input_ip_label" class="label">设备IP</span>
+                        <div class="device-input-box" style="background-color: inherit;">
+                            <input id="device_input_ip_value" type="text" />
+                            <span id="device_input_ip_error" class="error" style="background-color: inherit;">Error Message</span>
+                        </div>
+                    </div>
+
+                    <div id="device_input_name_container" class="device-input-items" style="background-color:inherit;">
+                        <span id="device_input_name_label" class="label">重命名</span>
+                        <div class="device-input-box" style="background-color: inherit;">
+                            <input id="device_input_name_value" type="text" />
+                            <span id="device_input_name_error" class="error" style="background-color: inherit;">Error Message</span>
+                        </div>
+                    </div>
+
+                    <div id="device_input_type_container" class="device-input-items" style="background-color:inherit;">
+                        <span id="device_input_type_label" class="label">类型</span>
+                        <div class="device-input-box" style="background-color: inherit;">
+                            <select id="device_input_type_value">
+                                <option value="volvo">Volvo</option>
+                                <option value="saab">Saab</option>
+                                <option value="mercedes">Mercedes</option>
+                                <option value="audi">Audi</option>
+                            </select>
+                            <span id="device_input_type_error" class="error" style="background-color: inherit;">Error Message</span>
+                        </div>
+                    </div>
+
+                    <div id="device_input_status_container" class="device-input-items" style="background-color:inherit;">
+                        <span id="device_input_status_label" class="label">状态</span>
+                        <div class="device-input-box" style="background-color: inherit;">
+
+                            <select id="device_input_status_value">
+                                <option value="volvo">Volvo</option>
+                                <option value="saab">Saab</option>
+                                <option value="mercedes">Mercedes</option>
+                                <option value="audi">Audi</option>
+                            </select>
+                            <span id="device_input_status_error" class="error" style="background-color: inherit;">Error Message</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="device-input-buttons" style="background-color: inherit;">
+                    <button id="device_action_test" class="button-outline-only">Test</button>
+                </div>
+            </div>
+            <div class="device-list-preview" style="background-color: inherit;">
+                <div id="device_manager_preview_title" class="menu-category-title">
+                    Preview
+                </div>
+                <div id="device_manager_preview_thumb" class="device-preview-thumb" style="background-color:inherit;">
+
+                </div>
+                <div class="device-input-buttons" style="background-color: inherit; margin-top: 370px;">
+
+                    <button id="device_action_bind" class="button-fill-green">Binding</button>
+                </div>
+            </div>
+        </div>
+
+
+        <div id="id_page_main_portal" class="main-frame" style="background-color: inherit; display:none;">
+            <div class="category" style="background-color: inherit;">
+                <span class="menu-category-title" style="margin-left: 72px;">
+                    类型
+                </span>
+                <div id="main_portal_category_list" class="inner-area" style="background-color:inherit;">
+                    <div class="item-category" style="background-color:red;">
+                        <div class="emphasize-area">
+                            <img src="/images/category/ca_hot_20x20.png" />
+                        </div>
+                        <span class="label">HOT</span>
+                    </div>
+                    <div class="item-category" style="background-color:red;">
+                        <div class="emphasize-area">
+                            <img src="/images/category/ca_normal_20x20.png" />
+                        </div>
+                        <span class="label">HOT</span>
+                    </div>
+                    <div class="item-category" style="background-color:green; margin-top:10px;">
+                        <div class="emphasize-area">
+                            <img src="/images/category/ca_all_20x20.png" />
+                        </div>
+                        <span class="label">ALL</span>
+                    </div>
+                </div>
+            </div>
+            <div class="content" style="background-color:inherit;">
+                <div class="menu-category-title" style="margin-left:82px;">
+                    游戏列表
+                </div>
+                <div class="inner-area">
+                    <div class="game-inner-container  vc-VScroll-container" style="background-color:inherit;">
+                        <span id="cts_list_error_msg" class="error-msg">
+                            Error HERE
+                        </span>
+                        <div id="cts_list_games" class="game-list" style="background-color: inherit;">
+                            <div class="item-game" style="background-color:red;">
+                                <img src="/images/test_image/420x170.png" />
+                                <div class="title">Title</div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="devices" style="background-color: #FFFFFF; ">
+                <span class="menu-category-title" style="margin-left: 72px; color: #8f8f8f;">
+                    设备列表
+                </span>
+                <div class="inner-area">
+                    <div class="device-inner vc-VScroll-container">
+                        <div id="id_sub_portal_devicelist" class="device-list">
+
+
+                            <div class="device-item">
+                                <div class="large middle" id="test_device_small_area" style="background-color: green;">
+                                    <div class="right-inner" style="background-color: purple;">
+                                        <div style="background-color: green; height: 30px; width: 100%; line-height: 20px; float: left;">
+                                            设备名称
+                                        </div>
+                                        <div style="background-color: black; width: 100%; float: left; height: calc(100% - 30px); display: table-cell; vertical-align: middle; text-align: center;">
+                                            <img src="/images/Logos/310x150.png" style="max-width: calc(100% - 10px); max-height: calc(100% - 10px);" />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="large middle" style="background-color: green;">
+
+                                    <div style="width: 100px; height: 0px; position: relative; border-right: 10px solid transparent; border-bottom: 10px solid red;">
+                                    </div>
+                                    <div style="width: 120px; height: 100px; margin-top:0px;position:relative;background-color: orange;">
+                                    </div>
+                                    <div class="right-inner" style="position:relative; margin-top:-100px">
+                                        <div>
+
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div id="device_list_type_thumb" class="device-view-type" style="background-color:inherit;">
+                        <img src="/images/device/list_20x20.png" />
+                        <span>列表查看</span>
+                    </div>
+                    <div id="device_list_type_list" class="device-view-type" style="background-color:inherit;">
+                        <img src="/images/device/thumb_20x20.png" />
+                        <span>缩略图查看</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div id="id_page_user_login" style="display:none;background-color:inherit;">
+            <div class="outer">
+                <div class="inner">
+                    <div id="ui_logine_center_area" class="centered" style="width:600px;">
+                        <div id="id_inner_user_login_input_area">
+
+                            <div class="logo"><img src="/images/Logos/310x150.png" style="height:100%;" /></div>
+                            <div class="inputs">
+                                <div class="input">
+                                    <input id="in_user_id" type="text" placeholder="User ID" value=""
+                                           onkeypress="Vercoop.PAGE.UserLogin.OnInputKeyPressed(this, event);" />
+                                </div>
+                                <div class="input">
+                                    <input id="in_user_password" type="password" placeholder="User ID" value=""
+                                           onkeypress="Vercoop.PAGE.UserLogin.OnInputKeyPressed(this, event);" />
+                                </div>
+             <!--     simple version         <div class="radio">
+                                    <input id="login_type_game" name="login_type" type="radio" value="1" checked="checked" /> Game
+                                    <input id="login_type_video" name="login_type" type="radio" value="2" /> Video
+                                    <input id="login_type_game_review" name="login_type" type="radio" value="3" /> Game Review
+                                </div> -->    
+                                <div class="input">
+                                    <button id="btn_user_login_form" onclick="Vercoop.PAGE.UserLogin.ProcessUserLogin();"
+                                            data-win-res="{textContent: 'STL_LBL_BTN_LOGIN'}" style="min-width: 100px;"></button>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="id_page_waiting" style="display:none;">
+            <div class="outer">
+                <div class="inner">
+                    <div class="centered" style="width:400px; background-color:inherit;">
+                        <progress class="win-ring" style="width: 80px; height: 80px; color:white"></progress>
+                        <br /><span id="sp_msg_waiting" style="font-size:24px;color:white;">Waiting....</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--START Video section -->
+        <div id="id_page_video" style="display:none;">
+            <div id="page_video_navigation_wrapper">
+
+            </div>
+            
+            <div id="page_video_content_wrapper">
+              
+            </div>
+            
+        </div>
+        <!--END Video section -->
+
+        <!--START Game Review section -->
+        <div id="id_page_game_review" style="display:none;">
+
+            <div id="page_gamereview_category_wrapper" class="inner-area">
+                <div id="page_gamereview_category_title">类型</div>
+                <div id="page_gamereview_category_menu" class="inner-area">
+
+                </div>
+            </div>
+
+            <div id="page_gamereview_content_wrapper" class="inner-area">
+                <div id="page_gamereview_content_title">游戏列表</div>
+                <div id="page_gamereview_content_content">
+
+                </div>
+            </div>
+
+            <div id="page_gamereview_detail_wrapper" >
+
+            </div>
+        <!--END  Game Review section -->
+    </div>
+    </div>
+    <!--START Login and payment box in right sidebar -->
+    <div id="login_payment">
+        <div id="login_payment_form">
+            <div id="login_payment_title"></div>
+
+            <div id="login_payment_form_username">
+                <div id="login_payment_form_username_wrapper"></div>
+                <div id="login_payment_form_username_wrapper_input">
+                    <input id="login_payment_in_user_id" type="text" placeholder="" value="" onkeypress="Vercoop.PAGE.UserLogin.OnInputKeyPressed(this, event);" />
+                </div>
+            </div>
+            <div style="clear:both;"></div>
+
+            <div id="login_payment_form_password">
+                <div id="login_payment_form_password_wrapper"></div>
+                <div id="login_payment_form_password_wrappe_input">
+                    <input id="login_payment_in_user_password" type="password" placeholder="" value="" onkeypress="Vercoop.PAGE.UserLogin.OnInputKeyPressed(this, event);" />
+                </div>
+            </div>
+            <div style="clear:both;"></div>
+
+            <div id="login_payment_submit_1_wrapper">
+                <button id="login_payment_submit_1"  data-win-res="{textContent: 'STL_LBL_BTN_LOGIN_1'}"></button>
+            </div>
+
+            <div id="login_payment_submit_2_wrapper">
+                <button id="login_payment_submit_2"  data-win-res="{textContent: 'STL_LBL_BTN_LOGIN_2'}"></button>
+            </div>
+        </div>
+
+        <div id="login_after">
+            <div id="login_after_title"></div>
+            <div style="clear:both;"></div>
+            <div id="login_after_user_thumb_wrapper"><img id="login_after_user_thumb" src="/images/icons_header/btn_nav_home.png" /></div>
+            <div id="login_after_user_nicname">UserName Here</div>
+            <button id="login_after_logout_button">Logout</button>
+        </div>
+
+        <div style="clear:both;"></div>
+
+        <div id="login_payment_text"></div>
+
+        <div id="login_payment_img">
+           <!-- <div id="login_payment_img_alipay"><img id="login_payment_alipay" width="100" height="100" src="/images/test_image/alipay.png" /><br /><div id="login_payment_img_alipay_str"></div></div>-->
+            <div id="login_payment_img_wxpay"><div id="login_payment_wxpay" style="width:100px; height:100px;"></div><br /><div id="login_payment_img_wxpay_str"></div></div>
+        </div>
+
+        <div id="login_payment_test_cash_payment_wrapper" ><button id="login_payment_test_cash_payment_button" >现金支付</button></div>
+    </div>
+    <!--END Login and payment box in right sidebar -->
+
+    <!--START Message Box -->
+    <div id="message_box" style="display:none;">
+        <div id="message_box_title"></div>
+        <div id="message_box_msg"></div>
+        <div id="message_box_button_wrapper_1" style="display:none;">
+            <div id="message_box_button_wrapper_1_wrapper">
+                <button id="message_box_button_1_1" value="test1"></button>
+            </div>
+        </div>
+        <div id="message_box_button_wrapper_2" style="display:none;">
+            <div id="message_box_button_wrapper_2_wrapper_1">
+                <button id="message_box_button_2_1"></button>
+            </div>
+            <div id="message_box_button_wrapper_2_wrapper_2">
+                <button id="message_box_button_2_2"></button>
+            </div>
+            <div style="clear:both;"></div>
+        </div>
+    </div>
+    <!--END Message Box -->
+    
+    <!--START popup login box -->
+    <div id="popup_login_box" style="display:none;">
+        <div id="popup_login_box_title"></div>
+        <div id="popup_login_box_username_wrapper">
+            <input id="popup_login_box_username" type="text" value="" onkeypress="Vercoop.PAGE.UserLogin.OnInputKeyPressed(this, event);" />
+        </div>
+        <div id="popup_login_box_password_wrapper">
+            <input id="popup_login_box_password" type="password" value="" onkeypress="Vercoop.PAGE.UserLogin.OnInputKeyPressed(this, event);" />
+        </div>
+        <div id="popup_login_box_button_wrapper" >
+            <div id="popup_login_box_button_1_wrapper">
+                <button id="popup_login_box_button_1"></button>
+            </div>
+            <div id="popup_login_box_button_2_wrapper">
+                <button id="popup_login_box_button_2"></button>
+            </div>
+            <div style="clear:both;"></div>
+        </div>
+    </div>
+    <!--END Message Box -->
+
+    <!--START Mask layer -->
+    <div id="mask_layer"></div>
+    <!--END Mask layer-->
+
+    <!--START Hidden value -->
+    <div id="group_leader_idx" data-value="0" style="display:none;"></div>
+    <div id="login_type" data-value="0" style="display:none;"></div>
+    <!--END Hidden value -->
+
+    <div id="debug_position_settings" style="position:absolute; background-color: red; left:0; bottom:0; width: 180px; height: 200px; display:none;">
+        <div id="test_transform_value" style="margin-left: 20px;">N/A</div>
+        <button onclick="Vercoop.Utils.UIDecorator.testXPlus();">X-Plus</button>
+        <button onclick="Vercoop.Utils.UIDecorator.testXMinus();">X-Minus</button> <br />
+        <button onclick="Vercoop.Utils.UIDecorator.testYPlus();">Y-Plus</button>
+        <button onclick="Vercoop.Utils.UIDecorator.testYMinus();">Y-Minus</button>
+        <button onclick="Vercoop.Utils.UIDecorator.testSetNormal();">SetNormal</button>
+        <button onclick="Windows.UI.ApplicationSettings.SettingsPane.show();">Show Settings</button>
+    </div>
+
+    <iframe src="pages/video/overview.html" name="video_overview" id="video_overview" style="display:none"></iframe>
+</body>
+</html>
