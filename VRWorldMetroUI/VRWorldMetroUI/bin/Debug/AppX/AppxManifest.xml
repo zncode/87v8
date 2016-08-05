@@ -7,7 +7,7 @@
 
     For more information on package manifest files, see http://go.microsoft.com/fwlink/?LinkID=241727
   -->
-  <Identity Name="567dafe2-6318-4d7a-bda9-28e936612e14a" Version="1.0.0.5" Publisher="CN=zn" ProcessorArchitecture="neutral" />
+  <Identity Name="567dafe2-6318-4d7a-bda9-28e936612e14a" Version="1.0.0.6" Publisher="CN=zn" ProcessorArchitecture="neutral" />
   <Properties>
     <DisplayName>VRWorldMetroUI</DisplayName>
     <PublisherDisplayName>zn</PublisherDisplayName>

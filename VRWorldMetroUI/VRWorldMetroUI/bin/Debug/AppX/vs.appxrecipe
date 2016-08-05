@@ -6,18 +6,18 @@
     <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
     <PackageArchitecture>neutral</PackageArchitecture>
     <PackageIdentityName>567dafe2-6318-4d7a-bda9-28e936612e14a</PackageIdentityName>
-    <RegisteredManifestChecksum>00010FE63A421338F39B92368E8B991B61DB1AF4F494DC263844CA1C7249C481</RegisteredManifestChecksum>
-    <RegisteredPackageMoniker>567dafe2-6318-4d7a-bda9-28e936612e14a_1.0.0.5_neutral__h258k4cdwy16e</RegisteredPackageMoniker>
+    <RegisteredManifestChecksum>2C26044588CEC8770599D55431C7BB1A93BCED1BA5DD62911B3378D5C7F306E9</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>567dafe2-6318-4d7a-bda9-28e936612e14a_1.0.0.6_neutral__h258k4cdwy16e</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>567dafe2-6318-4d7a-bda9-28e936612e14a_h258k4cdwy16e!App</RegisteredUserModeAppID>
     <RegisteredPackageID>567dafe2-6318-4d7a-bda9-28e936612e14a</RegisteredPackageID>
     <RegisteredPackagePublisher>CN=zn</RegisteredPackagePublisher>
-    <RegisteredVersion>1.0.0.5</RegisteredVersion>
+    <RegisteredVersion>1.0.0.6</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
     <AppXManifest Include="D:\www\87v8\VRWorldMetroUI\VRWorldMetroUI\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2016-07-29T03:35:51.679</Modified>
+      <Modified>2016-07-29T08:10:12.764</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -364,7 +364,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\www\87v8\VRWorldMetroUI\VRWorldMetroUI\bin\Debug\ReverseMap\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2016-07-29T03:35:51.616</Modified>
+      <Modified>2016-08-01T01:09:39.196</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
